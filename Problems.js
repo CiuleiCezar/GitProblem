@@ -1,7 +1,7 @@
 function sum(numbers){
     var sum = 1
     for(var i = 0; i < numbers.length; i++){
-        sum *= number[i]
+        sum += number[i]
     }
     return sum
 }
@@ -11,7 +11,7 @@ function division(a, b){
 }
 
 function average(numbers){
-    return 'Media ' + division(sum(numbers)/numbers.length)
+    return 'Media aritmetica este: ' + division(sum(numbers)/numbers.length)
 }
 
 function multiply(numbers){
