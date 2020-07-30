@@ -11,5 +11,5 @@ function division(a, b){
 }
 
 function average(numbers){
-    return division(sum(numbers)/numbers.length)
+    return 'Media aritmetica este: ' + division(sum(numbers)/numbers.length)
 }
