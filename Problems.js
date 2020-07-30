@@ -11,5 +11,13 @@ function division(a, b){
 }
 
 function average(numbers){
-    return division(sum(numbers)/numbers.length)
+    return 'Media ' + division(sum(numbers)/numbers.length)
+}
+
+function multiply(numbers){
+    var result = 1
+    for(var i = 0; i < numbers.length; i++){
+        result *= number[i]
+    }
+    return result
 }
